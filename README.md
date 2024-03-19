@@ -23,3 +23,10 @@ npm install @restspace/svelte-schema-form
 ```
 npm run dev -- --open
 ```
+
+
+## sveltekitのデータハンドリングについて
+
+sveltekitではデータを使ったページのレンダリングは、ページレンダリング前にfetchで実行されていた方が都合が良く、+page.svelteに連動してデータを受け渡すように、+page.jsファイルを別に作りload関数の中にデータ取得処理を記述します。
+
+したがって本アプリケーションでは、JSON Schemaの取得とパースは+page.jsで行います。
