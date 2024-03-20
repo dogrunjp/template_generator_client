@@ -11,7 +11,7 @@ export const server_loads = [];
 
 export const dictionary = {
 		"/": [2],
-		"/bak": [3]
+		"/pre-embedded": [3]
 	};
 
 export const hooks = {
