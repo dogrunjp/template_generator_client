@@ -1,6 +1,4 @@
-export function load({ fetch }) {  // <- ここの引数 fetch は後述
-
-    // データ取得の処理
+export function load({ fetch }) {  // +page.svelteと連動してデータを引き渡すための関数
     async function getdata() {
         const x = await fetch('./ddbj_submission_dev1.json')
         return    await x.json()

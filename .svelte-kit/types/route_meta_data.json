@@ -2,5 +2,8 @@
 	"/": [
 		"src/routes/+page.js"
 	],
+	"/minimum": [
+		"src/routes/minimum/+page.js"
+	],
 	"/pre-embedded": []
 }
